@@ -1,0 +1,24 @@
+.SwipeOptions {
+    display: flex; 
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+.SwipeOptions__option {
+    display: flex;; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-width: 31px;  
+    min-height: 31px;  
+    border-radius: 100%;
+    cursor: pointer; 
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+    transition-duration: .3s;
+}
+
+.SwipeOptions__option:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
+    transition-duration: .3s;
+}

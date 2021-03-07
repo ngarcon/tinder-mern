@@ -1,15 +1,15 @@
 export const peopleData = [
     {
         name: 'Kevin Hart', 
-        imageURL: 'http://www.eurweb.com/2013/07/kevin-hart-let-me-explain-earns-7-4m-in-two-days/'
+        imageURL: 'https://www.wealthypersons.com/wp-content/uploads/2019/12/Kevin-Harts.jpg'
     },
     {
         name: 'Eddy Murphy', 
-        imageURL: 'https://defendernetwork.com/entertainment/eddie-murphy-is-expecting-his-10th-child/'
+        imageURL: 'https://i0.wp.com/defendernetwork.com/wp-content/uploads/2018/08/Eddie-Murphy.jpg?w=860&ssl=1'
     },
     {
         name: 'Chris Rock', 
-        imageURL: 'https://www.thefamouspeople.com/profiles/chris-rock-30184.php'
+        imageURL: 'https://www.thefamouspeople.com/profiles/thumbs/chris-rock-5.jpg'
     },
 
 ];

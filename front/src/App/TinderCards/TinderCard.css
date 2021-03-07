@@ -1,0 +1,23 @@
+.TinderCard {
+    width: 500px;
+    position:absolute;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.TinderCard__avatar {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.TinderCard__name {
+    position: absolute; 
+    bottom:0;
+    left: 0;
+    color: #fff;
+    padding: 8px;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.8);
+}

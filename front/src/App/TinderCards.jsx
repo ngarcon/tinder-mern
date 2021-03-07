@@ -1,6 +1,6 @@
 import React, {useState} from 'react'; 
 import {peopleData} from '../mock/people';
-
+import {TinderCard} from './TinderCards/TinderCard'; 
 import "./TinderCards.css"; 
 
 
@@ -11,12 +11,17 @@ export function TinderCards() {
 
     return (
         <div className={"TinderCards"}>
-            {people.map(person => {
-                return (<TinderCard
-                    people={person}
-            
-                />)
-            })}
+            <div className={"TinderCards__visionner"}>
+                {people.reverse().map((person, index) => {
+                    return (<TinderCard
+                        person={{
+                            ...person,
+                            index
+                        }}
+                
+                    />)
+                })}
+            </div>
         </div>
     )
 }

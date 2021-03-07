@@ -1,3 +1,11 @@
 .TinderCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.TinderCards__visionner {
+    width: 500px;
+    height: 500px;
+    position: relative; 
 }
